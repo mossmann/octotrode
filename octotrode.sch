@@ -4,13 +4,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Octotrode"
+Date "2020-06-25"
 Rev ""
-Comp ""
+Comp "Copyright 2019-2020 Michael Ossmann"
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "Licensed under the CERN-OHL-P v2"
 Comment4 ""
 $EndDescr
 $Comp
@@ -23,7 +23,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 2800 2650 50  0001 C C
 F 3 "~" H 2800 2650 50  0001 C CNN
 F 4 "Everlight" H 2800 2650 50  0001 C CNN "Manufacturer"
 F 5 "IR928-6C-F" H 2800 2650 50  0001 C CNN "Part Number"
-F 6 "Side Face Infrared LED" H 2800 2650 50  0001 C CNN "Description"
+F 6 "Infrared (IR) Emitter 940nm 1.2V 50mA 40° Radial" H 2800 2650 50  0001 C CNN "Description"
 	1    2800 2650
 	0    -1   -1   0   
 $EndComp
@@ -35,6 +35,9 @@ F 0 "R1" H 2870 2296 50  0000 L CNN
 F 1 "220" H 2870 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2730 2250 50  0001 C CNN
 F 3 "~" H 2800 2250 50  0001 C CNN
+F 4 "220 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film " H 2800 2250 50  0001 C CNN "Description"
+F 5 "Yageo" H 2800 2250 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-07220RL" H 2800 2250 50  0001 C CNN "Part Number"
 	1    2800 2250
 	1    0    0    -1  
 $EndComp
@@ -48,7 +51,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 3300 3150 50  0001 C C
 F 3 "~" H 3100 3050 50  0001 C CNN
 F 4 "Everlight" H 3100 3050 50  0001 C CNN "Manufacturer"
 F 5 "PT928-6B-F" H 3100 3050 50  0001 C CNN "Part Number"
-F 6 "Sidelooker Phototransistor" H 3100 3050 50  0001 C CNN "Description"
+F 6 "Phototransistors 940nm Side View Radial, Side View" H 3100 3050 50  0001 C CNN "Description"
 	1    3100 3050
 	1    0    0    -1  
 $EndComp
@@ -60,6 +63,9 @@ F 0 "R5" H 3270 3646 50  0000 L CNN
 F 1 "4K7" H 3270 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 3600 50  0001 C CNN
 F 3 "~" H 3200 3600 50  0001 C CNN
+F 4 "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 3200 3600 50  0001 C CNN "Description"
+F 5 "Yageo" H 3200 3600 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-074K7L" H 3200 3600 50  0001 C CNN "Part Number"
 	1    3200 3600
 	1    0    0    -1  
 $EndComp
@@ -105,6 +111,9 @@ F 0 "R2" H 3970 2296 50  0000 L CNN
 F 1 "220" H 3970 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 2250 50  0001 C CNN
 F 3 "~" H 3900 2250 50  0001 C CNN
+F 4 "220 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film " H 3900 2250 50  0001 C CNN "Description"
+F 5 "Yageo" H 3900 2250 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-07220RL" H 3900 2250 50  0001 C CNN "Part Number"
 	1    3900 2250
 	1    0    0    -1  
 $EndComp
@@ -116,6 +125,9 @@ F 0 "R6" H 4370 3646 50  0000 L CNN
 F 1 "4K7" H 4370 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4230 3600 50  0001 C CNN
 F 3 "~" H 4300 3600 50  0001 C CNN
+F 4 "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 4300 3600 50  0001 C CNN "Description"
+F 5 "Yageo" H 4300 3600 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-074K7L" H 4300 3600 50  0001 C CNN "Part Number"
 	1    4300 3600
 	1    0    0    -1  
 $EndComp
@@ -139,6 +151,9 @@ F 0 "R3" H 5070 2296 50  0000 L CNN
 F 1 "220" H 5070 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 2250 50  0001 C CNN
 F 3 "~" H 5000 2250 50  0001 C CNN
+F 4 "220 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film " H 5000 2250 50  0001 C CNN "Description"
+F 5 "Yageo" H 5000 2250 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-07220RL" H 5000 2250 50  0001 C CNN "Part Number"
 	1    5000 2250
 	1    0    0    -1  
 $EndComp
@@ -150,6 +165,9 @@ F 0 "R7" H 5470 3646 50  0000 L CNN
 F 1 "4K7" H 5470 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5330 3600 50  0001 C CNN
 F 3 "~" H 5400 3600 50  0001 C CNN
+F 4 "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 5400 3600 50  0001 C CNN "Description"
+F 5 "Yageo" H 5400 3600 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-074K7L" H 5400 3600 50  0001 C CNN "Part Number"
 	1    5400 3600
 	1    0    0    -1  
 $EndComp
@@ -173,6 +191,9 @@ F 0 "R4" H 6170 2296 50  0000 L CNN
 F 1 "220" H 6170 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6030 2250 50  0001 C CNN
 F 3 "~" H 6100 2250 50  0001 C CNN
+F 4 "220 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film " H 6100 2250 50  0001 C CNN "Description"
+F 5 "Yageo" H 6100 2250 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-07220RL" H 6100 2250 50  0001 C CNN "Part Number"
 	1    6100 2250
 	1    0    0    -1  
 $EndComp
@@ -184,6 +205,9 @@ F 0 "R8" H 6570 3646 50  0000 L CNN
 F 1 "4K7" H 6570 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6430 3600 50  0001 C CNN
 F 3 "~" H 6500 3600 50  0001 C CNN
+F 4 "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" H 6500 3600 50  0001 C CNN "Description"
+F 5 "Yageo" H 6500 3600 50  0001 C CNN "Manufacturer"
+F 6 "RC0603FR-074K7L" H 6500 3600 50  0001 C CNN "Part Number"
 	1    6500 3600
 	1    0    0    -1  
 $EndComp
@@ -287,7 +311,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 3900 2650 50  0001 C C
 F 3 "~" H 3900 2650 50  0001 C CNN
 F 4 "Everlight" H 3900 2650 50  0001 C CNN "Manufacturer"
 F 5 "IR928-6C-F" H 3900 2650 50  0001 C CNN "Part Number"
-F 6 "Side Face Infrared LED" H 3900 2650 50  0001 C CNN "Description"
+F 6 "Infrared (IR) Emitter 940nm 1.2V 50mA 40° Radial" H 3900 2650 50  0001 C CNN "Description"
 	1    3900 2650
 	0    -1   -1   0   
 $EndComp
@@ -301,7 +325,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 5000 2650 50  0001 C C
 F 3 "~" H 5000 2650 50  0001 C CNN
 F 4 "Everlight" H 5000 2650 50  0001 C CNN "Manufacturer"
 F 5 "IR928-6C-F" H 5000 2650 50  0001 C CNN "Part Number"
-F 6 "Side Face Infrared LED" H 5000 2650 50  0001 C CNN "Description"
+F 6 "Infrared (IR) Emitter 940nm 1.2V 50mA 40° Radial" H 5000 2650 50  0001 C CNN "Description"
 	1    5000 2650
 	0    -1   -1   0   
 $EndComp
@@ -315,7 +339,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 6100 2650 50  0001 C C
 F 3 "~" H 6100 2650 50  0001 C CNN
 F 4 "Everlight" H 6100 2650 50  0001 C CNN "Manufacturer"
 F 5 "IR928-6C-F" H 6100 2650 50  0001 C CNN "Part Number"
-F 6 "Side Face Infrared LED" H 6100 2650 50  0001 C CNN "Description"
+F 6 "Infrared (IR) Emitter 940nm 1.2V 50mA 40° Radial" H 6100 2650 50  0001 C CNN "Description"
 	1    6100 2650
 	0    -1   -1   0   
 $EndComp
@@ -329,7 +353,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 4400 3150 50  0001 C C
 F 3 "~" H 4200 3050 50  0001 C CNN
 F 4 "Everlight" H 4200 3050 50  0001 C CNN "Manufacturer"
 F 5 "PT928-6B-F" H 4200 3050 50  0001 C CNN "Part Number"
-F 6 "Sidelooker Phototransistor" H 4200 3050 50  0001 C CNN "Description"
+F 6 "Phototransistors 940nm Side View Radial, Side View" H 4200 3050 50  0001 C CNN "Description"
 	1    4200 3050
 	1    0    0    -1  
 $EndComp
@@ -343,7 +367,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 5500 3150 50  0001 C C
 F 3 "~" H 5300 3050 50  0001 C CNN
 F 4 "Everlight" H 5300 3050 50  0001 C CNN "Manufacturer"
 F 5 "PT928-6B-F" H 5300 3050 50  0001 C CNN "Part Number"
-F 6 "Sidelooker Phototransistor" H 5300 3050 50  0001 C CNN "Description"
+F 6 "Phototransistors 940nm Side View Radial, Side View" H 5300 3050 50  0001 C CNN "Description"
 	1    5300 3050
 	1    0    0    -1  
 $EndComp
@@ -357,7 +381,7 @@ F 2 "LED_THT:LED_SideEmitter_Rectangular_W4.5mm_H1.6mm" H 6600 3150 50  0001 C C
 F 3 "~" H 6400 3050 50  0001 C CNN
 F 4 "Everlight" H 6400 3050 50  0001 C CNN "Manufacturer"
 F 5 "PT928-6B-F" H 6400 3050 50  0001 C CNN "Part Number"
-F 6 "Sidelooker Phototransistor" H 6400 3050 50  0001 C CNN "Description"
+F 6 "Phototransistors 940nm Side View Radial, Side View" H 6400 3050 50  0001 C CNN "Description"
 	1    6400 3050
 	1    0    0    -1  
 $EndComp
@@ -369,6 +393,9 @@ F 0 "U1" V 3454 4780 50  0000 L CNN
 F 1 "74HC14" V 3545 4780 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3500 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 3500 4600 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 3500 4600 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 3500 4600 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 3500 4600 50  0001 C CNN "Part Number"
 	1    3500 4600
 	0    1    1    0   
 $EndComp
@@ -380,6 +407,9 @@ F 0 "U1" V 4554 4780 50  0000 L CNN
 F 1 "74HC14" V 4645 4780 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4600 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4600 4600 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 4600 4600 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 4600 4600 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 4600 4600 50  0001 C CNN "Part Number"
 	2    4600 4600
 	0    1    1    0   
 $EndComp
@@ -391,6 +421,9 @@ F 0 "U1" V 5654 4780 50  0000 L CNN
 F 1 "74HC14" V 5745 4780 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5700 4600 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 5700 4600 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 5700 4600 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 5700 4600 50  0001 C CNN "Part Number"
 	3    5700 4600
 	0    1    1    0   
 $EndComp
@@ -402,6 +435,9 @@ F 0 "U1" V 6754 4780 50  0000 L CNN
 F 1 "74HC14" V 6845 4780 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6800 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 6800 4600 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 6800 4600 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 6800 4600 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 6800 4600 50  0001 C CNN "Part Number"
 	4    6800 4600
 	0    1    1    0   
 $EndComp
@@ -413,6 +449,9 @@ F 0 "U1" V 7454 4780 50  0000 L CNN
 F 1 "74HC14" V 7545 4780 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7500 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 7500 4600 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 7500 4600 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 7500 4600 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 7500 4600 50  0001 C CNN "Part Number"
 	5    7500 4600
 	0    1    1    0   
 $EndComp
@@ -424,6 +463,9 @@ F 0 "U1" V 8104 4780 50  0000 L CNN
 F 1 "74HC14" V 8195 4780 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8150 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 8150 4600 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 8150 4600 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 8150 4600 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 8150 4600 50  0001 C CNN "Part Number"
 	6    8150 4600
 	0    1    1    0   
 $EndComp
@@ -435,6 +477,9 @@ F 0 "U1" H 9130 4696 50  0000 L CNN
 F 1 "74HC14" H 9130 4605 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8900 4650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 8900 4650 50  0001 C CNN
+F 4 "Inverter IC 6 Channel Schmitt Trigger 14-SOIC " H 8900 4650 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 8900 4650 50  0001 C CNN "Manufacturer"
+F 6 "SN74HC14DR" H 8900 4650 50  0001 C CNN "Part Number"
 	7    8900 4650
 	1    0    0    -1  
 $EndComp
@@ -463,6 +508,9 @@ F 0 "J1" V 3373 6030 50  0000 L CNN
 F 1 "Conn_01x01" V 3464 6030 50  0000 L CNN
 F 2 "octotrode:Conn_QC_Tab_0.25in" H 3500 5950 50  0001 C CNN
 F 3 "~" H 3500 5950 50  0001 C CNN
+F 4 "0.187\" (4.75mm) Quick Connect Male Solder Connector Non-Insulated" H 3500 5950 50  0001 C CNN "Description"
+F 5 "TE Connectivity" H 3500 5950 50  0001 C CNN "Manufacturer"
+F 6 "1217332-1" H 3500 5950 50  0001 C CNN "Part Number"
 	1    3500 5950
 	0    1    1    0   
 $EndComp
@@ -474,6 +522,9 @@ F 0 "J2" V 4473 6030 50  0000 L CNN
 F 1 "Conn_01x01" V 4564 6030 50  0000 L CNN
 F 2 "octotrode:Conn_QC_Tab_0.25in" H 4600 5950 50  0001 C CNN
 F 3 "~" H 4600 5950 50  0001 C CNN
+F 4 "0.187\" (4.75mm) Quick Connect Male Solder Connector Non-Insulated" H 4600 5950 50  0001 C CNN "Description"
+F 5 "TE Connectivity" H 4600 5950 50  0001 C CNN "Manufacturer"
+F 6 "1217332-1" H 4600 5950 50  0001 C CNN "Part Number"
 	1    4600 5950
 	0    1    1    0   
 $EndComp
@@ -485,6 +536,9 @@ F 0 "J3" V 5573 6030 50  0000 L CNN
 F 1 "Conn_01x01" V 5664 6030 50  0000 L CNN
 F 2 "octotrode:Conn_QC_Tab_0.25in" H 5700 5950 50  0001 C CNN
 F 3 "~" H 5700 5950 50  0001 C CNN
+F 4 "0.187\" (4.75mm) Quick Connect Male Solder Connector Non-Insulated" H 5700 5950 50  0001 C CNN "Description"
+F 5 "TE Connectivity" H 5700 5950 50  0001 C CNN "Manufacturer"
+F 6 "1217332-1" H 5700 5950 50  0001 C CNN "Part Number"
 	1    5700 5950
 	0    1    1    0   
 $EndComp
@@ -496,6 +550,9 @@ F 0 "J4" V 6673 6030 50  0000 L CNN
 F 1 "Conn_01x01" V 6764 6030 50  0000 L CNN
 F 2 "octotrode:Conn_QC_Tab_0.25in" H 6800 5950 50  0001 C CNN
 F 3 "~" H 6800 5950 50  0001 C CNN
+F 4 "0.187\" (4.75mm) Quick Connect Male Solder Connector Non-Insulated" H 6800 5950 50  0001 C CNN "Description"
+F 5 "TE Connectivity" H 6800 5950 50  0001 C CNN "Manufacturer"
+F 6 "1217332-1" H 6800 5950 50  0001 C CNN "Part Number"
 	1    6800 5950
 	0    1    1    0   
 $EndComp
@@ -507,6 +564,9 @@ F 0 "J5" V 8323 1880 50  0000 L CNN
 F 1 "Conn_01x01" V 8414 1880 50  0000 L CNN
 F 2 "octotrode:Conn_QC_Tab_0.25in" H 8450 1800 50  0001 C CNN
 F 3 "~" H 8450 1800 50  0001 C CNN
+F 4 "0.187\" (4.75mm) Quick Connect Male Solder Connector Non-Insulated" H 8450 1800 50  0001 C CNN "Description"
+F 5 "TE Connectivity" H 8450 1800 50  0001 C CNN "Manufacturer"
+F 6 "1217332-1" H 8450 1800 50  0001 C CNN "Part Number"
 	1    8450 1800
 	-1   0    0    1   
 $EndComp
@@ -518,6 +578,9 @@ F 0 "J6" V 8323 2680 50  0000 L CNN
 F 1 "Conn_01x01" V 8414 2680 50  0000 L CNN
 F 2 "octotrode:Conn_QC_Tab_0.25in" H 8450 2600 50  0001 C CNN
 F 3 "~" H 8450 2600 50  0001 C CNN
+F 4 "0.187\" (4.75mm) Quick Connect Male Solder Connector Non-Insulated" H 8450 2600 50  0001 C CNN "Description"
+F 5 "TE Connectivity" H 8450 2600 50  0001 C CNN "Manufacturer"
+F 6 "1217332-1" H 8450 2600 50  0001 C CNN "Part Number"
 	1    8450 2600
 	-1   0    0    1   
 $EndComp
@@ -589,6 +652,9 @@ F 0 "C1" H 9665 4146 50  0000 L CNN
 F 1 "100nF" H 9665 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9588 3950 50  0001 C CNN
 F 3 "~" H 9550 4100 50  0001 C CNN
+F 4 "0.1µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" H 9550 4100 50  0001 C CNN "Description"
+F 5 "Samsung" H 9550 4100 50  0001 C CNN "Manufacturer"
+F 6 "CL10B104KA8NNNC" H 9550 4100 50  0001 C CNN "Part Number"
 	1    9550 4100
 	1    0    0    -1  
 $EndComp
@@ -633,7 +699,7 @@ F 2 "Diode_SMD:D_SOD-123F" H 8900 1800 50  0001 C CNN
 F 3 "~" H 8900 1800 50  0001 C CNN
 F 4 "SMC Diode Solutions" V 8900 1800 50  0001 C CNN "Manufacturer"
 F 5 "1N4007FLTR" V 8900 1800 50  0001 C CNN "Part Number"
-F 6 "STANDARD RECTIFIER 1000V SOD-123" V 8900 1800 50  0001 C CNN "Description"
+F 6 "Diode Standard 1000V 1A Surface Mount SOD-123FL" V 8900 1800 50  0001 C CNN "Description"
 	1    8900 1800
 	-1   0    0    1   
 $EndComp
